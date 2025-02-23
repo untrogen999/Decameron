@@ -7,8 +7,44 @@
         
     </head>
     <body>
-        <!--#include virtual="decamnav.html" -->
-        <!-- jlm: This SSI should be showing a navigation bar with links to "Home" and other links that say "Coming Soon." -->
+        <!-- AZ: Navigation bar -->
+        <div id="nav">
+           <img src="decamlogo.png" class="logo" alt="Decameron logo"/>
+           <div class="menu">
+              <ul class="nav">
+                 <li><a href="index.html">Home</a></li>
+                 <li><a href="about.html">About</a>
+                 <ul>
+                    <li><a href="methodology.html">Methodology</a></li>
+                    <li><a href="members.html">Members</a></li>
+                 </ul>
+                 </li>
+                 <li><a href="boxModel.html">Days</a>
+                    <ul class="sub">
+                       <li><a href="boxModel.html">Frame Model</a></li>
+                       <li><a href="DayOneOutput.html">Day 1</a></li>
+                       <li><a href="DayTwoOutput.html">Day 2</a></li>
+                       <li><a href="DayThreeOutput.html">Day 3</a></li>
+                       <li><a href="DayFourOutput.html">Day 4</a></li>
+                       <li><a href="DayFiveOutput.html">Day 5</a></li>
+                       <li><a href="DaySixOutput.html">Day 6</a></li>
+                       <li><a href="DaySevenOutput.html">Day 7</a></li>
+                       <li><a href="DayEightOutput.html">Day 8</a></li>
+                       <li><a href="DayNineOutput.html">Day 9</a></li>
+                       <li><a href="DayTenOutput.html">Day 10</a></li>
+                    </ul>
+                 </li>
+                 <li><a href="map_simple_places.html">Carta</a></li>
+                 <li><a href="">Analysis</a>
+                    <ul>
+                    <li><a href="graphNovellas.html">Graphs</a></li>
+                    <li><a href="networkGraph.html">Network</a></li>
+                 </ul></li>
+              </ul>
+            </div>
+        </div>
+        <hr/>
+        
         <div class="middle">
             <h2>History</h2>
             <h3>Oakland Team</h3>
@@ -25,7 +61,10 @@
             <p>Lastly, we looked at the frame narrative in the text and searched for stories that were found within the stories in the <i>Decameron</i>. Jessica found three and denoted them by using Regex and placing floating text elements around the entire nested narrative. Later on, Lauren was able to use this to represent the orientation of the narrative on a webpage. She used XSLT to create the pages which show the days and novellas, and used CSS to differentiate what the floating text of the frame from a nested narrative, as well as songs found throughout the text. Adapting a box model from the W3Schools website, Lauren created a <a href="http://decameron.newtfire.org/boxModel.html">box model</a> to represent how the <i>Decameron</i> is structurally set up.</p>
             
         </div>
-        <!--#include virtual="decamfooter.html" -->
-        <!-- jlm: This SSI should be a footer that shows the date the page was last modified. -->
+         
+         <!-- AZ: Page footer -->
+         <p>
+         <a rel="license" href="http://creativecommons.org/licenses/by-nc-sa/4.0/"><img id="CCL" alt="Creative Commons License" style="border-width:0" src="https://licensebuttons.net/l/by-nc-sa/4.0/80x15.png" /></a><a rel="license" href="http://creativecommons.org/licenses/by-nc-sa/4.0/"></a>
+         </p>
     </body>
 </html>
